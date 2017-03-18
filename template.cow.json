@@ -1,0 +1,2 @@
+{% for s in Servers %}ss://{{s.Method}}:{{s.Password}}@{{s.Server}}:{{s.ServerPort}}
+{% endfor %}

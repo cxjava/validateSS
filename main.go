@@ -2,20 +2,22 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"io/ioutil"
-	"os"
-	"path"
 	"sort"
 	"strconv"
 	"strings"
 	"sync"
 
 	"github.com/Sirupsen/logrus"
+	"github.com/flosch/pongo2"
 )
 
 var (
-	log = logrus.New()
-	SS  ServerSlice
+	log      = logrus.New()
+	SS       ServerSlice
+	template = flag.String("t", "rc.template.txt", "template file name")
+	output   = flag.String("o", "rc.txt", "output file name")
 )
 
 type Server struct {
@@ -31,6 +33,7 @@ type Server struct {
 type ServerSlice struct {
 	Servers       []Server `json:"servers"`
 	TestURL       string   `json:"testURL"`
+	TemplateFile  string   `json:"templateFile"`
 	OutFile       string   `json:"outFile"`
 	ConnectionNum int      `json:"connectionNum"`
 	RequestNum    int      `json:"requestNum"`
@@ -64,9 +67,9 @@ func main() {
 	sort.Sort(BySpeed(servers))
 
 	log.Info(servers)
+	SS.Servers = servers
 
-	toGUIServer(servers)
-
+	toTemplateServer(SS)
 }
 
 //测试服务器速度
@@ -109,23 +112,23 @@ func (a BySpeed) Len() int           { return len(a) }
 func (a BySpeed) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a BySpeed) Less(i, j int) bool { return a[i].Speed < a[j].Speed }
 
-func toGUIServer(servers []Server) {
-	str := []string{}
-	for _, server := range servers {
-		if server.Speed <= SS.MaxTime {
-			proxy := `{"server" : "` + server.Server
-			proxy = proxy + `",	"server_port" :` + strconv.Itoa(server.ServerPort)
-			proxy = proxy + `,	"password" : "` + server.Password
-			proxy = proxy + `",	"method" : "` + server.Method
-			proxy = proxy + `",	"remarks" : "` + server.Remarks + `"},`
-			str = append(str, proxy)
+func toTemplateServer(ss ServerSlice) {
+	templates := strings.Split(ss.TemplateFile, ";")
+	outs := strings.Split(ss.OutFile, ";")
+	for k, temp := range templates {
+
+		var tplExample = pongo2.Must(pongo2.FromFile(temp))
+
+		out, err := tplExample.Execute(
+			pongo2.Context{
+				"Servers": ss.Servers,
+			})
+		if err != nil {
+			panic(err)
 		}
-	}
-	all := strings.Join(str, "\r\n")
-	os.MkdirAll(path.Dir(SS.OutFile), 0775)
-	err := ioutil.WriteFile(SS.OutFile, []byte(all), 0644)
-	if err != nil {
-		log.Error("write file err:", err)
-		panic(err)
+		err = ioutil.WriteFile(outs[k], []byte(out), 0644)
+		if err != nil {
+			panic(err)
+		}
 	}
 }

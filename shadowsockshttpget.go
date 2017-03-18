@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"net/url"
 	"os"
-	"strings"
 	"time"
 
 	ss "github.com/shadowsocks/shadowsocks-go/shadowsocks"
@@ -72,13 +71,13 @@ func TestSpeed(server, password, method, port, uri string, connectionNum, reques
 		os.Exit(1)
 	}
 
-	if strings.HasPrefix(uri, "https://") {
-		fmt.Println("https not supported")
-		os.Exit(1)
-	}
-	if !strings.HasPrefix(uri, "http://") {
-		uri = "http://" + uri
-	}
+	// if strings.HasPrefix(uri, "https://") {
+	// 	fmt.Println("https not supported")
+	// 	os.Exit(1)
+	// }
+	// if !strings.HasPrefix(uri, "http://") {
+	// 	uri = "http://" + uri
+	// }
 
 	cipher, err := ss.NewCipher(method, password)
 	if err != nil {

@@ -1,0 +1,3 @@
+{% for s in Servers %}
+{"server": "{{s.Server}}","server_port": {{s.ServerPort}},"password": "{{s.Password}}",
+"method": "{{s.Method}}","remarks": "{{s.Remarks}}","auth": false,"timeout": 5 },{% endfor %}

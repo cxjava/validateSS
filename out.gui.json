@@ -1,0 +1,964 @@
+
+{
+      "server": "103.28.44.138",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "45.62.99.104",
+      "server_port": 443,
+      "password": "savageboy",
+      "method": "aes-256-cfb",
+      "remarks": "Bandwagon - 5G PROMO V2",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.44.60",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.46.149",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.44.185",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.46.165",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.46.179",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.45.226",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "203.124.12.170",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.45.203",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.45.187",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-172.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-172",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-522.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "us-522",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-522.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "us-522",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-187.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "sg-187",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t-64.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn2t-64",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg05-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "ss-default",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-965.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-965",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-176.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "us-176",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-176.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "us-176",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-54.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "sg-54",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-109.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-109",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-us03-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us02-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "45.78.21.210",
+      "server_port": 443,
+      "password": "blueyiniu",
+      "method": "aes-256-cfb",
+      "remarks": "ss1-443",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-965.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-965",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sa8.uudaili.info",
+      "server_port": 17361,
+      "password": "jsjyspcorangestar1230",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us03-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "antc.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "antc",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-210.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-210",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-63.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "us-63",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us01-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "ssh-sys",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp1.1122.lol",
+      "server_port": 35071,
+      "password": "NAkBl7h4",
+      "method": "rc4-md5",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-107.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-107",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "antb.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "antb",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-172.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-172",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-52.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-52",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-109.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-109",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-189.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "sg-189",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-7137.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "us-7137",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "103.28.45.66",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-150.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "sg-150",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-150.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "sg-150",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-16.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "sg-16",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-16.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "sg-16",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-739.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-739",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "54.68.36.208",
+      "server_port": 443,
+      "password": "woodnao13",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-739.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-739",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-189.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "sg-189",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t-31.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn2t-31",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "kr-216.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "kr-216",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "ss.waerd.com",
+      "server_port": 8388,
+      "password": "password",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-107.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-107",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-222.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-222",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-111.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-111",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "kr-180.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "kr-180",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t-52.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn2t-52",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn2t",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "kr-180.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "kr-180",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-210.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-210",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "kr-215.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "kr-215",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "kr-215.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "kr-215",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-59.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-59",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-177.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-177",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sa1.uudaili.info",
+      "server_port": 17361,
+      "password": "jsjyspcorangestar1230",
+      "method": "aes-256-cfb",
+      "remarks": "日本1",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp01-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-66.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-66",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "204.74.215.35",
+      "server_port": 443,
+      "password": "isi2015",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-66.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-66",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-162.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-162",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sa2.uudaili.info",
+      "server_port": 17361,
+      "password": "jsjyspcorangestar1230",
+      "method": "aes-256-cfb",
+      "remarks": "美国1",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-177.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-177",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-59.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "jp-59",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "cn2t",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-252.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-252",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-4126.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "us-4126",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk02-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "ssh-sys2",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-jp03-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-hk03-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "anta.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "anta",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn3t.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn3t",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-jp05-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn3t.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "cn3t",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-54.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "sg-54",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-7137.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "us-7137",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "tw-216.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "tw-216",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-207.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-207",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "tw-22.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "tw-22",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg03-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "us-63.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "us-63",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg-187.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "sg-187",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp-162.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "jp-162",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-sg02-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp06-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "ss-jp",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sg02-33.ssv7.net",
+      "server_port": 42339,
+      "password": "8xNBvb9fksrJ",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "vip-jp04-3.ssv7.net",
+      "server_port": 52545,
+      "password": "ZpIMYAyv5UxC",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-207.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-207",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-252.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-252",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-52.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "hk-52",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "tw-22.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "tw-22",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "antd.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "antd",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "tw-36.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "tw-36",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-222.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-222",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "cn2t-76.hxg.cc",
+      "server_port": 53909,
+      "password": "msdn2010",
+      "method": "rc4-md5",
+      "remarks": "cn2t-76",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "jp.koreha.net",
+      "server_port": 10086,
+      "password": "10086",
+      "method": "aes-256-cfb",
+      "remarks": "vultr",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "hk-197.hxg.cc",
+      "server_port": 54592,
+      "password": "Ou48uF0g3y",
+      "method": "rc4-md5",
+      "remarks": "hk-197",
+      "auth": false,
+      "timeout": 5
+},
+{
+      "server": "sa6.uudaili.info",
+      "server_port": 17361,
+      "password": "jsjyspcorangestar1230",
+      "method": "aes-256-cfb",
+      "remarks": "uudaili",
+      "auth": false,
+      "timeout": 5
+},

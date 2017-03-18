@@ -1,0 +1,6 @@
+package: cx.com/validateSS
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/shadowsocks/shadowsocks-go
+  subpackages:
+  - shadowsocks
