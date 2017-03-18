@@ -97,7 +97,8 @@ func TestServerSpeed(servers []Server) []Server {
 			}()
 			s.Speed = TestSpeed(s.Server, s.Password, s.Method, strconv.Itoa(s.ServerPort), SS.TestURL, SS.ConnectionNum, SS.RequestNum)
 			if s.Speed == 0 {
-				s.Speed = float64(5678)
+				// s.Speed = float64(5678)
+				return
 			}
 			result = append(result, s)
 		}(server)
