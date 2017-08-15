@@ -10,6 +10,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/shadowsocks/go-shadowsocks2/core"
 	ss "github.com/shadowsocks/shadowsocks-go/shadowsocks"
 )
 
@@ -31,6 +32,50 @@ func doOneRequest(client *http.Client, uri string, buf []byte) (err error) {
 	return
 }
 
+func get2(requestNum, connid int, uri, serverAddr string, rawAddr []byte, cipher core.Cipher, done chan []time.Duration) {
+	reqDone := 0
+	reqTime := make([]time.Duration, requestNum)
+	defer func() {
+		done <- reqTime[:reqDone]
+	}()
+	tr := &http.Transport{
+		Dial: func(_, _ string) (net.Conn, error) {
+			rc, err := net.Dial("tcp", serverAddr)
+			if err != nil {
+				fmt.Printf("failed to connect to server %v: %v", serverAddr, err)
+				return nil, err
+			}
+			c := cipher.StreamConn(rc)
+
+			if _, err = c.Write(rawAddr); err != nil {
+				c.Close()
+				fmt.Printf("failed to write to server %v: %v", serverAddr, err)
+				return nil, err
+			}
+			return c, nil
+		},
+		ResponseHeaderTimeout: time.Second * 5,
+	}
+
+	timeout := time.Duration(5 * time.Second)
+
+	buf := make([]byte, 8192)
+	client := &http.Client{
+		Transport: tr,
+		Timeout:   timeout,
+	}
+	for ; reqDone < requestNum; reqDone++ {
+		start := time.Now()
+		if err := doOneRequest(client, uri, buf); err != nil {
+			return
+		}
+		reqTime[reqDone] = time.Now().Sub(start)
+
+		if (reqDone+1)%1000 == 0 {
+			fmt.Printf("conn %d finished %d get requests\n", connid, reqDone+1)
+		}
+	}
+}
 func get(requestNum, connid int, uri, serverAddr string, rawAddr []byte, cipher *ss.Cipher, done chan []time.Duration) {
 	reqDone := 0
 	reqTime := make([]time.Duration, requestNum)
@@ -78,18 +123,22 @@ func TestSpeed(server, password, method, port, uri string, connectionNum, reques
 	// if !strings.HasPrefix(uri, "http://") {
 	// 	uri = "http://" + uri
 	// }
-
+	var ciph core.Cipher
 	cipher, err := ss.NewCipher(method, password)
 	if err != nil {
-		fmt.Println("Error creating cipher:", err)
-		os.Exit(1)
+		var key []byte
+		ciph, err = core.PickCipher(method, key, password)
+		if err != nil {
+			fmt.Println("Error creating cipher:", err)
+			return 0
+		}
 	}
 	serverAddr := net.JoinHostPort(server, port)
 
 	parsedURL, err := url.Parse(uri)
 	if err != nil {
 		fmt.Println("Error parsing url:", err)
-		os.Exit(1)
+		return 0
 	}
 	host, _, err := net.SplitHostPort(parsedURL.Host)
 	if err != nil {
@@ -105,7 +154,11 @@ func TestSpeed(server, password, method, port, uri string, connectionNum, reques
 
 	done := make(chan []time.Duration)
 	for i := 1; i <= connectionNum; i++ {
-		go get(requestNum, i, uri, serverAddr, rawAddr, cipher, done)
+		if cipher == nil {
+			go get2(requestNum, i, uri, serverAddr, rawAddr, ciph, done)
+		} else {
+			go get(requestNum, i, uri, serverAddr, rawAddr, cipher, done)
+		}
 	}
 
 	// collect request finish time
